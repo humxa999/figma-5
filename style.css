@@ -1,0 +1,48 @@
+* {
+  padding: 0px !important;
+  margin: 0px !important;
+  box-sizing: border-box;
+  background-color: #f1edf9;
+  @font-face {
+    font-family: "roboto";
+    src: url(Asset/fonts/Roboto-Regular.ttf);
+  }
+}
+.main {
+  height: 100vh;
+
+  background-color: #f1edf9;
+}
+
+.conent_left .logo > img {
+  width: 80px;
+}
+
+.conent_left {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.heading h1 {
+  font-size: 50px;
+}
+
+.paragraph {
+  margin-top: 40px !important;
+  width: 420px;
+  color: #505258;
+}
+
+.input button {
+  width: 120px;
+  height: 45px;
+  background-color: #90eff0;
+
+  border-radius: 20px;
+  border: none;
+  color: black;
+}
+
+.back img {
+  width: 100%;
+}
